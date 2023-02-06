@@ -1,0 +1,522 @@
+* {
+  box-sizing: border-box;
+}
+nav,
+header,
+footer {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.row ::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+/*###################################################################*/
+
+nav {
+  width: 100%;
+  min-width: 300px;
+  margin: 0;
+}
+nav ul {
+  background-color: #270082;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+ul.topnav li.topnav-right {
+  float: right;
+}
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+  text-align: center;
+  padding: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
+ul.topnav li.mytunes a {
+  font-family: system-ui, "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+ul.topnav li.topnav-right:hover {
+  background-color: blue;
+}
+ul.topnav {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+ul.topnav li.dropdownIcon {
+  display: none;
+}
+.container-1 {
+  height: 1024px;
+  background: url(frame1.png.png);
+  background-repeat: no-repeat;
+  height: 130vh;
+  background-size: cover;
+  padding-top: 0;
+  color: white;
+  min-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.head {
+  font-family: "Roboto";
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.head-2 {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.head-3 {
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+.container-2 {
+  background-color: #281154;
+  min-height: auto;
+  height: 135vh;
+  min-width: 300px;
+  width: 100%;
+}
+.text-2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.text-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+  align-items: center;
+}
+.music {
+  width: 50px;
+  height: 50px;
+  margin-top: 7%;
+  margin: 12px;
+}
+.music-2 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 29px;
+  font-family: "Roboto";
+}
+
+.music-3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 39px;
+}
+.music-4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.text-4 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.text-4 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+.btn-1 {
+  width: 220px;
+  height: 65px;
+  background-color: #dc0000;
+  border: none;
+  margin-top: 1.7%;
+}
+.text-5 {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  margin-top: 3%;
+}
+.image {
+  margin-top: 4%;
+}
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  min-width: 300px;
+}
+.part-1 {
+  font-family: "Roboto";
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  margin-top: 35%;
+  text-align: center;
+}
+.part-2 {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 4%;
+}
+.part-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+.part-4 {
+  background-color: #37008e;
+  width: 143px;
+  height: 55px;
+  border: none;
+}
+.part-4 a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 29px;
+  color: white;
+}
+.container-4 {
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+  min-width: 300px;
+}
+.container-5 {
+  width: 100%;
+  min-width: 300px;
+  height: 761px;
+  background: url(image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.world-1 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+}
+.world-2 {
+  margin-top: 14%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 29px;
+}
+.lorem {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 4%;
+}
+.container-6 {
+  width: 100%;
+  min-width: 300px;
+}
+.card-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 8.5%;
+  margin-bottom: 7.5%;
+}
+.row-2 {
+  display: flex;
+  flex-direction: column;
+}
+.card-2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 29px;
+  margin-top: 2%;
+}
+.card-3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  margin-top: 4%;
+}
+.card-4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin-top: 4%;
+}
+.hr-1 {
+  width: 76%;
+  margin-top: 2%;
+}
+.card-6 {
+  margin-top: 1.7%;
+  background: #37008e;
+  color: #ffffff;
+  width: 133px;
+  height: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  border: none;
+}
+.large-1 {
+  width: 100%;
+  min-width: 300px;
+  background-color: #1b0058;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.ul-1,
+.ul-2,
+.ul-3,
+.ul-4 li {
+  list-style: none;
+}
+
+.large-1 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.large-1 h1 {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+}
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: #270082;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0em;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  width: 100%;
+  min-width: 300px;
+}
+
+/* ########################################################################### */
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+  ul.topnav li.dropdownIcon {
+    display: block;
+  }
+
+  .container-1 {
+    height: 70vh;
+  }
+  .head {
+    font-size: 56px;
+  }
+  .head-2 {
+    font-size: 24px;
+  }
+  .head-3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .part-1 {
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .part-1 {
+    margin-top: 0%;
+  }
+  .container-5 {
+    height: 400px;
+  }
+  .world-2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+  }
+  .lorem {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 4%;
+  }
+  .row-1,
+  .row-2 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .loop-1 {
+    width: 100%;
+  }
+  .card-2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 2%;
+  }
+  .card-3 {
+    font-size: 14px;
+    line-height: 35px;
+    margin-top: 2%;
+  }
+  .card-4 {
+    font-size: 14px;
+    margin-top: 2%;
+  }
+  .hr-1 {
+    width: 76%;
+    margin-top: 1%;
+  }
+  .card-6 {
+    margin-top: 1%;
+    width: 133px;
+    height: 50px;
+    font-weight: 300;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 972px) {
+  .loop-1 {
+    width: 50%;
+  }
+}
